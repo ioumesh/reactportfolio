@@ -8,7 +8,7 @@ import { ThemeContext } from "../../context";
 
 const Contact = () => {
   const formRef = useRef();
-  const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
@@ -24,7 +24,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="c">
+    <div className="c" id="Contact">
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -59,10 +59,30 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Name"
+              name="user_name"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Subject"
+              name="user_subject"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Email"
+              name="user_email"
+            />
+            <textarea
+              style={{ backgroundColor: darkMode && "#333" }}
+              rows="5"
+              placeholder="Message"
+              name="message"
+            />
             <button>Submit</button>
             {done && "Thank you..."}
           </form>
