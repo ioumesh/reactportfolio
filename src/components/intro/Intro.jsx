@@ -1,5 +1,5 @@
 import "./intro.css";
-// import Me from "../../img/me.png";
+import Me from "../../img/mind.svg";
 import Resume from "./resume.pdf";
 const Intro = () => {
   return (
@@ -21,7 +21,7 @@ const Intro = () => {
             online stores.
           </p>
           <a href={Resume} download>
-            <button className="button s-button">Download CV</button>
+            <button>Download CV</button>
           </a>
         </div>
 
@@ -83,8 +83,9 @@ const Intro = () => {
         </svg>
       </div>
       <div className="i-right">
-        <div className="i-bg"></div>
-        {/* <img src={Me} alt="" className="i-img" /> */}
+        <div className="i-bg">
+          <img src={Me} alt="" className="i-img" />
+        </div>
       </div>
     </div>
   );

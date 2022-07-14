@@ -1,14 +1,15 @@
 import "./about.css";
 import Award from "../../img/award.png";
-
+import AboutMe from "../../img/about.svg";
 const About = () => {
   return (
     <div className="a" id="About">
       <div className="a-left">
         <div className="a-card bg"></div>
-        <div className="a-card">
+        <div className="a-card" style={{ border: "1px solid #05a081" }}>
           <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            style={{ objectFit: "cover" }}
+            src={AboutMe}
             alt=""
             className="a-img"
           />

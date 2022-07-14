@@ -44,7 +44,7 @@
   color: black;
 }
 .navbarList > ul > li:hover {
-  color: #59b256;
+  color: #05a081;
   cursor: pointer;
 }
 @media screen and (max-width: 480px) {
