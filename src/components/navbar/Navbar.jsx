@@ -39,7 +39,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link activeClass="active" to="Contact" spy={true} smooth={true}>
-          <button>Contact</button>
+          <button>Hire Me</button>
         </Link>
       </div>
     </div>

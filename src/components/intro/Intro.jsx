@@ -1,20 +1,18 @@
 import "./intro.css";
 // import Me from "../../img/me.png";
-
+import Resume from "./resume.pdf";
 const Intro = () => {
   return (
     <div className="i" id="Intro">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">John Burton</h1>
+          <h1 className="i-name">Umesh Kumar</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
+              <div className="i-title-item">Frontend Web Developer</div>
               <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Photographer</div>
-              <div className="i-title-item">Writer</div>
-              <div className="i-title-item">Content Creator</div>
+              <div className="i-title-item">React Developer</div>
             </div>
           </div>
           <p className="i-desc">
@@ -22,7 +20,11 @@ const Intro = () => {
             specializing in creating stylish, modern websites, web services and
             online stores.
           </p>
+          <a href={Resume} download>
+            <button className="button s-button">Download CV</button>
+          </a>
         </div>
+
         <svg
           width="75"
           height="75"

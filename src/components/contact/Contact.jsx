@@ -16,10 +16,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_ka68ymc",
+        "template_eni00rs",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "user_U9wYOwfAufhdO2QLW0rWv"
       )
       .then(
         (result) => {
@@ -41,15 +41,15 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +1 1234 556 75
+              +917503005113
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              contact@lama.dev
+              umeshk.ic@nsit.net.in
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              245 King Street, Touterie Victoria 8520 Australia
+              Dwarka Sector-14,Delhi 110078
             </div>
           </div>
         </div>
@@ -68,14 +68,15 @@ const Contact = () => {
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
-              placeholder="Subject"
-              name="user_subject"
+              placeholder="Email"
+              name="user_email"
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
-              type="text"
-              placeholder="Email"
-              name="user_email"
+              type="number"
+              placeholder="Mobile"
+              name="user_mobile"
+              required
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
