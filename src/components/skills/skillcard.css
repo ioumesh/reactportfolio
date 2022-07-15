@@ -1,0 +1,14 @@
+.skillCardContainer {
+  box-shadow: rgba(96, 119, 143, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  width: 30vh;
+  height: 30vh;
+  display: flex;
+  padding: 20px;
+}
+.skillContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

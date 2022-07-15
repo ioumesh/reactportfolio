@@ -10,15 +10,16 @@ const Intro = () => {
           <h1 className="i-name">Umesh Kumar</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Frontend Web Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">React Developer</div>
+              <div className="i-title-item">REACT</div>
+              <div className="i-title-item">HTML</div>
+              <div className="i-title-item">CSS3</div>
+              <div className="i-title-item">JAVASCRIPT</div>
+              <div className="i-title-item">Developer</div>
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            Frontend Developer with high level of experience in web designing
+            and development.
           </p>
           <a href={Resume} download>
             <button>Download CV</button>

@@ -24,8 +24,14 @@ const About = () => {
         <p className="a-desc">
           Hello 👋 I am Umesh Kumar, a <b>software developer</b> based in Delhi,
           India. I develop full blown web applications using the MERN Stack, but
-          I mostly love working on the <b>frontend </b>using CSS and{" "}
+          I mostly love working on the <b>frontend </b>using CSS and
           <b>React</b>.
+          <br />
+          <span>
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites, web services and
+            online stores.
+          </span>
         </p>
         {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
