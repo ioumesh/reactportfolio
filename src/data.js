@@ -1,32 +1,32 @@
 export const products = [
   {
     id: 1,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "/static/img/fame.jpg",
     link: "https://fameclix.netlify.app/",
   },
   {
     id: 2,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "/static/img/fameclix2.png",
     link: "https://fameflix.netlify.app/",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "/static/img/TaxGlobal.png",
     link: "https://taxglobal.netlify.app/",
   },
   {
     id: 4,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "/static/img/blog.png",
     link: "https://yourstory.netlify.app/",
   },
   {
     id: 5,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "/static/img/clubhouse.png",
     link: "https://talkhouse.netlify.app/",
   },
   {
     id: 6,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "/static/img/admin.png",
     link: "https://adminumesh.netlify.app/",
   },
 ];
@@ -38,40 +38,38 @@ export const Skill = [
   },
   {
     src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
-    text: "  I develop full-blown web apps using HTML, CSS and JavaScript MERN Stack",
+    text: " CSS is the language we use to style an HTML document.",
   },
   {
     src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png",
-    text: "  I develop full-blown web apps using HTML, CSS and JavaScript MERN Stack",
+    text: "  JavaScript is the world's most popular programming language.",
   },
   {
     src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
-    text: "  I develop full-blown web apps using HTML, CSS and JavaScript MERN Stack",
+    text: "  React is a JavaScript library for building user interfaces",
   },
   {
     src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png",
-    text: "  I develop full-blown web apps using HTML, CSS and JavaScript MERN Stack",
+    text: "  I develop full-blown web apps using HTML, CSS and JavaScript MERN Stack with VS Code.",
   },
 ];
 
 export const Events = [
   {
-    date: "22/09/2017",
+    date: "Oct 2021-Present",
     event:
-      'Naissance du projet suite à la publication de l\'<a href="https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=AE9DCF75DDCF0465784CEE0E7D62729F.tplgfr37s_2?idArticle=JORFARTI000035607420&cidTexte=JORFTEXT000035607388&dateTexte=29990101&categorieLien=id">ordonnance du 22 Septembre 2017</a>',
+      'Zingbus - Software Development Engineer \'<a href="https://www.zingbus.com/">InterCity Bus Services Company across India</a>',
   },
   {
-    date: "01/12/2017",
-    event: "Réception du projet à l'incubateur des Ministères Sociaux",
+    date: "Mar 2021-Sep 2021",
+    event: "Envigo Ltd- Frontend Web Developer",
   },
   {
-    date: "01/01/2018",
-    event:
-      "Lancement équipe projet : Héla Ghariani (DINSIC/beta.gouv) Catherine Lissarague (DGT), Catherine Lozé-Faelens (DSI), Julien Bouquillon (Incubateur)",
+    date: "June 2020- Jan 2021",
+    event: "Byjus,The Learning App-Frontend Web Developer",
   },
   {
-    date: "02/01/2018",
-    event:
-      "Réception d'une liste des 50 questions les plus fréquemment posées dans les services de renseignement",
+    date: "Nov 2018 -Apr 2020",
+    event: "CSC e-governance Services India - Operational Engineer- Supervisor",
   },
 ];
