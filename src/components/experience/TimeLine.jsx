@@ -31,7 +31,12 @@ const TimeLine = () => {
               <VerticalTimelineElement
                 lineColor="red"
                 className="vertical-timeline-element--work"
-                contentStyle={{ border: "0.5px solid #05a081", color: "black" }}
+                contentStyle={{
+                  border: "0.5px solid #05a081",
+                  color: "black",
+                  fontSize: "15px",
+                  fontFamily: "Poppins",
+                }}
                 contentArrowStyle={{
                   borderRight: "7px solid  #05a081",
                 }}

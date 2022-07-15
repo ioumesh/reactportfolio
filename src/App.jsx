@@ -1,14 +1,9 @@
 import { useContext } from "react";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import TimeLine from "./components/experience/TimeLine";
-import Footer from "./components/footer/Footer";
-import Intro from "./components/intro/Intro";
-import Navbar from "./components/navbar/Navbar";
-import ProductList from "./components/productList/ProductList";
-import Skills from "./components/skills/Skills";
-import { ThemeContext } from "./context";
 
+import { ThemeContext } from "./context";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import TimeLine from "./components/experience/TimeLine";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -19,14 +14,12 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
-      <Navbar />
-      <Intro />
-      <About />
-      <Skills />
-      <TimeLine />
-      <ProductList />
-      <Contact />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<TimeLine />} />
+        </Routes>
+      </Router>
     </div>
   );
 };
