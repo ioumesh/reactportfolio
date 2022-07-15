@@ -1,7 +1,7 @@
 import React from "react";
 import SkillCard from "./SkillCard";
 import "./skills.css";
-import { Skill } from "./data";
+import { Skill } from "../../data";
 const Skills = () => {
   return (
     <div className="skillsContainer" id="Skills">

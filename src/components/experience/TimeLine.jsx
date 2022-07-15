@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import events from "./event.json";
+import { Events } from "../../data";
 import ZingbusIcon from "../../img/zingbus.png";
 const Zingbus = () => {
   return (
@@ -27,7 +27,7 @@ const TimeLine = () => {
 
         <div style={{ background: "#334jjk" }}>
           <VerticalTimeline>
-            {events.map((event) => (
+            {Events.map((event) => (
               <VerticalTimelineElement
                 lineColor="red"
                 className="vertical-timeline-element--work"
