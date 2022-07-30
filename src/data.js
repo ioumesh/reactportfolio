@@ -1,14 +1,15 @@
 export const products = [
   {
     id: 1,
-    img: "/static/img/fame.jpg",
-    link: "https://fameclix.netlify.app/",
+    img: "/static/img/crypto.jpeg",
+    link: "https://cryptomoniter.netlify.app/",
   },
   {
     id: 2,
-    img: "/static/img/fameclix2.png",
-    link: "https://fameflix.netlify.app/",
+    img: "/static/img/fame.jpg",
+    link: "https://fameclix.netlify.app/",
   },
+
   {
     id: 3,
     img: "/static/img/TaxGlobal.png",
