@@ -1,9 +1,10 @@
 import { useContext } from "react";
 
 import { ThemeContext } from "./context";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import TimeLine from "./components/experience/TimeLine";
+import ProductList from "./components/productList/ProductList";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<TimeLine />} />
+          <Route path="/portfolio" element={<ProductList />} />
         </Routes>
       </Router>
     </div>

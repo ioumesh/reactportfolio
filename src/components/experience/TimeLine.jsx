@@ -6,19 +6,19 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Events } from "../../data";
-import ZingbusIcon from "../../img/zingbus.png";
-const Zingbus = () => {
-  return (
-    <img
-      style={{
-        width: "50%",
-        height: "50%",
-      }}
-      src={ZingbusIcon}
-      alt="zingbus"
-    />
-  );
-};
+// import ZingbusIcon from "../../img/zingbus.png";
+// const Zingbus = () => {
+//   return (
+//     <img
+//       style={{
+//         width: "50%",
+//         height: "50%",
+//       }}
+//       src={ZingbusIcon}
+//       alt="zingbus"
+//     />
+//   );
+// };
 const TimeLine = () => {
   return (
     <>
