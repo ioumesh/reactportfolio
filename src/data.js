@@ -66,7 +66,7 @@ export const Events = [
     event: "Envigo Ltd- Frontend Web Developer",
   },
   {
-    date: "June 2020- Jan 2021",
+    date: "July 2020- Jan 2021",
     event: "Byjus,The Learning App-Frontend Web Developer",
   },
   {
