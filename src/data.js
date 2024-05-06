@@ -57,20 +57,22 @@ export const Skill = [
 
 export const Events = [
   {
-    date: "Oct 2021-Present",
+    date: "Oct 2023-Present",
+    event:
+      'Johnson Control (Mindteck) - Senior SDE Frontend',
+  },
+  {
+    date: "Aug 2022-Oct 2023",
+    event:
+      'PristynCare x Lybrate  - Frontend Engineer ',
+  },
+  {
+    date: "Apr 2021-Aug 2022",
     event:
       'Zingbus - Software Development Engineer \'<a href="https://www.zingbus.com/">InterCity Bus Services Company across India</a>',
   },
   {
-    date: "Mar 2021-Sep 2021",
-    event: "Envigo Ltd- Frontend Web Developer",
-  },
-  {
-    date: "July 2020- Jan 2021",
-    event: "Byjus,The Learning App-Frontend Web Developer",
-  },
-  {
-    date: "Nov 2018 -Apr 2020",
+    date: "Jul 2018 -June 2020",
     event: "CSC e-governance Services India - Operational Engineer- Supervisor",
   },
 ];
