@@ -11,6 +11,8 @@ const Intro = () => {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">REACT</div>
+              <div className="i-title-item">NEXT Js</div>
+              <div className="i-title-item">TYPESCRIPT</div>
               <div className="i-title-item">HTML</div>
               <div className="i-title-item">CSS3</div>
               <div className="i-title-item">JAVASCRIPT</div>
